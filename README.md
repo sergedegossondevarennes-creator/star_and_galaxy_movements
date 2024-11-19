@@ -1,2 +1,2 @@
-# star_and_galaxy_movements
+# Star and Galaxy Movements
 A galactic movement analysis
