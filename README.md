@@ -67,3 +67,34 @@ Predictive models for future galactic collisions (e.g., the Milky Way-Andromeda 
 * Gaia Archive
 * 2MASS
 
+# Code architecture
+
+galactic_dynamics_project/
+│
+├── data/                          # For storing raw and processed data
+│   ├── raw/                       # Raw datasets
+│   ├── processed/                 # Cleaned and prepared data
+│
+├── notebooks/                     # Jupyter notebooks for exploration
+│   ├── rotation_analysis.ipynb    # Analyze galactic rotation curves
+│   ├── collision_simulation.ipynb # Simulate galaxy collisions
+│   ├── stellar_mapping.ipynb      # Create 3D maps of the Milky Way
+│
+├── src/                           # Core Python scripts
+│   ├── data_processing.py         # Data cleaning and preparation
+│   ├── rotation_curves.py         # Rotation curve analysis
+│   ├── collision_simulation.py    # Galaxy collision simulations
+│   ├── stellar_mapping.py         # 3D mapping of stars
+│   ├── visualization.py           # Functions for plotting and animations
+│
+├── tests/                         # Unit tests for core modules
+│   ├── test_rotation_curves.py
+│   ├── test_collision_simulation.py
+│   ├── test_stellar_mapping.py
+│
+├── outputs/                       # Save outputs (e.g., plots, animations)
+│
+├── requirements.txt               # Python dependencies
+├── README.md                      # Project description and usage guide
+└── main.py                        # Entry point for the entire workflow
+
