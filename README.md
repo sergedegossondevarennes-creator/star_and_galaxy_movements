@@ -69,6 +69,7 @@ Predictive models for future galactic collisions (e.g., the Milky Way-Andromeda 
 
 # Code architecture
 
+```
 galactic_dynamics_project/
 │
 ├── data/                          # For storing raw and processed data
@@ -97,4 +98,4 @@ galactic_dynamics_project/
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # Project description and usage guide
 └── main.py                        # Entry point for the entire workflow
-
+```
