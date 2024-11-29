@@ -1,4 +1,5 @@
-# Dynamic Mapping and Evolution of the Milky Way and Interacting Galaxies"
+# Dynamic Mapping and Evolution of the Milky Way and Interacting Galaxies
+
 
 ## Project Goals:
 ### Analyze Galactic Rotation Curves:
